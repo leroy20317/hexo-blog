@@ -1,0 +1,81 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+  -webkit-border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  // background-color: #e7e7e7;
+  background-color: #c4cbd3;
+  // border:1px solid rgba(0, 0, 0, 0.21);
+  -webkit-border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  // background-color: #f6f6f6;
+  background-color: #c4cbd3;
+  // border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+  // background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 5px;
+}
+
+// 文章边框阴影
+.post-block.home {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+
+// 重写阅读全文样式
+.post-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.post-button .btn {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #555;
+  background: #fff;
+  border: 2px solid #555;
+  text-decoration: none;
+  border-radius: 2px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  line-height: 2;
+}
+
+.post-button .btn:hover {
+  border-color: #222;
+  color: #fff;
+  background: #222;
+}
+
+// 底部居中
+.footer-inner {
+  text-align: center;
+}
+
+// 分页居中
+.pagination {
+  text-align: center;
+}
