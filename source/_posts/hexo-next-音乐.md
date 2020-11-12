@@ -15,9 +15,9 @@ tags:
 
 一款好用的音乐播放器插件，支持 QQ 音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放。
 
-github 地址： <a href="https://github.com/MoePlayer/hexo-tag-aplayer">https://github.com/MoePlayer/hexo-tag-aplayer</a>
+github 地址： https://github.com/MoePlayer/hexo-tag-aplayer
  
-官方文档：<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md</a>
+官方文档：https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
  
 #### 安装
 ```yaml

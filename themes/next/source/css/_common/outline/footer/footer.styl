@@ -13,22 +13,22 @@
   }
 }
 
+// Flexbox layout makes it possible to reorder the child
+// elements of .footer-inner through the `order` CSS property
 .footer-inner {
   box-sizing: border-box;
-  margin: 0 auto;
   text-align: center;
-  width: $content-desktop;
+  flex-column();
+  main-container();
+}
 
-  +desktop-large() {
-    width: $content-desktop-large;
-  }
-
-  +desktop-largest() {
-    width: $content-desktop-largest;
+.use-motion {
+  .footer {
+    opacity: 0;
   }
 }
 
-@keyframes iconAnimate {
+@keyframes icon-animate {
   0%, 100% {
     transform: scale(1);
   }
@@ -46,16 +46,31 @@
   }
 }
 
+.languages {
+  display: inline-block;
+  font-size: $font-size-large;
+  position: relative;
+
+  .lang-select-label span {
+    margin: 0 .5em;
+  }
+
+  .lang-select {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
 .with-love {
   color: unquote(hexo-config('footer.icon.color'));
   display: inline-block;
   margin: 0 5px;
 
   if (hexo-config('footer.icon.animated')) {
-    animation: iconAnimate 1.33s ease-in-out infinite;
+    animation: icon-animate 1.33s ease-in-out infinite;
   }
-}
-
-.powered-by, .theme-info {
-  display: inline-block;
 }
