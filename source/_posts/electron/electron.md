@@ -21,7 +21,7 @@ yarn add electron -D
 在项目的根目录建一个文件`main.js`
 ```javascript
 // 引入electron并创建一个Browserwindow
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow } = require('source/_posts/electron/electron');
 const path = require('path');
 const url = require('url');
 
