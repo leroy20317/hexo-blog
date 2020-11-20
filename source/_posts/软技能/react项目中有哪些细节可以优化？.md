@@ -1,7 +1,9 @@
 ---
 title: react项目中有哪些细节可以优化？
 date: 2020-11-16 11:15:58
-tags: 软技能
+tags: 
+    - 软技能
+    - javascript
 ---
 
 ### react项目中有哪些细节可以优化？
