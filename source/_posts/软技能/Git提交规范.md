@@ -7,6 +7,8 @@ tags: 软技能
 
 在开发过程中，Git每次提交代码，都需要写Commit message（提交说明），规范的Commit message有很多好处：
 
+<!--more-->
+
 - 方便快速浏览查找，回溯之前的工作内容
 - 可以直接从commit 生成Change log(发布时用于说明版本差异)
 
