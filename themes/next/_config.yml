@@ -83,7 +83,7 @@ menu:
   home: / || fa fa-home
   tags: /tags/ || fa fa-tags
   archives: /archives/ || fa fa-archive
-  about: /about/ || fa fa-user
+#  about: /about/ || fa fa-user
 #  categories: /categories/ || fa fa-th
 #  schedule: /schedule/ || fa fa-calendar
 #  sitemap: /sitemap.xml || fa fa-sitemap
